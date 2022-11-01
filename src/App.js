@@ -1,12 +1,19 @@
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home'
 
 function App() {
+  const visitor = Math.floor(Math.random()*1000000)
+ 
   return (
     <div className='App'>
-      <div className='content'></div>
-      <h1>App Component</h1>
+      <Navbar></Navbar>
+      <div className='content'>
+        <Home></Home>
+        <p> You are the { visitor }th visitor</p>
+      </div>
+
     </div>
   );
 }
-
 export default App;
