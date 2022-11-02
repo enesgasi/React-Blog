@@ -49,3 +49,14 @@
   margin-bottom: 8px;
 }
 
+.blog-preview button {
+  background-color: #f1356d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+

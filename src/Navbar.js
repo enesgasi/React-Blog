@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <h1>Enes Blog</h1>
+            <h1>EnesBlr</h1>
             <div className="links">
                 <a href="/" style={{
                     color: "white",
