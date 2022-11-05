@@ -14,7 +14,7 @@
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #E4BF46;
 }
 .navbar .links {
   margin-left: auto;
@@ -25,7 +25,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #E4BF46;
 }
 .content {
   max-width: 600px;
@@ -45,12 +45,12 @@
 
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #E4BF46;
   margin-bottom: 8px;
 }
 
 .blog-preview button {
-  background-color: #f1356d;
+  background-color: #E4BF46;
   border: none;
   color: black;
   padding: 15px 32px;
@@ -58,5 +58,18 @@
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
+}
+.home button {
+  background-color: #E4BF46;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+.body {
+  background-color: blueviolet;
 }
 
